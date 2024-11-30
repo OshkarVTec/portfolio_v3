@@ -12,6 +12,14 @@ const pathname = Astro.url.pathname;
     >
         <li class="my-6">
             <a
+                href="/"
+                class={`p-2 hover:text-gray-400 ${pathname === '/projects' ? 'text-gray-400' : 'text-gray-100'}`}
+            >
+                Home
+            </a>
+        </li>
+        <li class="my-6">
+            <a
                 href="/projects"
                 class={`p-2 hover:text-gray-400 ${pathname === '/projects' ? 'text-gray-400' : 'text-gray-100'}`}
             >
