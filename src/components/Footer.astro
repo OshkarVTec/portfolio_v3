@@ -1,0 +1,25 @@
+---
+import { socialData } from '../data/social.ts';
+import { Icon } from 'astro-icon/components';
+---
+
+<section
+    id="contact"
+    class="flex p-4 px-20 items-center justify-end bg-gray-700"
+>
+    <ul class="flex gap-10">
+        {
+            socialData.map((social) => (
+                <li class="flex flex-col items-center justify-center">
+                    <a
+                        href={social.link}
+                        class="flex flex-col items-center justify-center text-gray-100 font-extrabold"
+                    >
+                        <Icon name={social.icon} class="w-16 h-16" />
+                        <h3>{social.platform}</h3>
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</section>
