@@ -1,0 +1,38 @@
+---
+const pathname = Astro.url.pathname;
+---
+
+<section
+    id="contact"
+    class="flex p-4 px-10 items-center justify-between bg-gray-700"
+>
+    <p class="text-3xl text-gray-100 font-bold">Oskar Villa</p>
+    <ul
+        class="flex gap-4 list-none text-3xl font-bold h-auto animate-slideInRight"
+    >
+        <li class="my-6">
+            <a
+                href="/projects"
+                class={`p-2 hover:text-gray-400 ${pathname === '/projects' ? 'text-gray-400' : 'text-gray-100'}`}
+            >
+                Projects
+            </a>
+        </li>
+        <li class="my-6">
+            <a
+                href="/about-me"
+                class={`p-2 hover:text-gray-400 ${pathname === '/about-me' ? 'text-gray-400' : 'text-gray-100'}`}
+            >
+                About me
+            </a>
+        </li>
+        <li class="my-6">
+            <a
+                href="/contact"
+                class={`p-2 hover:text-gray-400 ${pathname === '/contact' ? 'text-gray-400' : 'text-gray-100'}`}
+            >
+                Contact
+            </a>
+        </li>
+    </ul>
+</section>
