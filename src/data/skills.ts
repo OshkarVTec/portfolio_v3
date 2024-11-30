@@ -1,4 +1,5 @@
 export const skillsData = [
+    { name: 'Neural Networks', icon: 'fa6-solid:brain', color: '#ff6f61' },
     { name: 'ReactJS', icon: 'fa6-brands:react', color: '#61D8FB' },
     { name: 'Python', icon: 'fa6-brands:python', color: '#ffde57' },
     { name: 'C++', icon: 'tabler:brand-cpp' },
