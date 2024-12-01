@@ -3,9 +3,9 @@ import Subtitle from './common/Subtitle.astro';
 import { experienceData } from '../data/experience.ts';
 ---
 
-<section id="experience" class="flex flex-col items-center lg:block">
+<section id="experience" class="flex flex-col items-center lg:block p-10 pb-0">
     <Subtitle>Experience</Subtitle>
-    <div class="flex flex-wrap justify-around">
+    <div class="flex flex-wrap justify-around py-10">
         {
             experienceData.map((experienceItem) => (
                 <div class="border-2 border-gray-700 w-[80%] lg:w-[45%] m-4 p-4">
