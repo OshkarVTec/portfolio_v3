@@ -8,6 +8,6 @@ export const educationData = [
     {
         school: 'Tec de Monterrey (ITESM) Querétaro',
         name: 'Concentration in advanced Artificial Intelligence for Data Science',
-        date: 'August 2024 - December 2025'
+        date: 'August 2024 - December 2024'
     }
 ];
