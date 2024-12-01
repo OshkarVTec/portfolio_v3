@@ -10,7 +10,7 @@ import { Icon } from 'astro-icon/components';
     <p id="nav-title" class="text-3xl text-gray-100 font-bold">Oskar Villa</p>
     <button
         class="absolute right-4 md:hidden text-gray-100 focus:outline-none"
-        onclick="document.getElementById('nav-menu').classList.toggle('hidden'); document.getElementById('nav-title').classList.toggle('hidden'); document.getElementById('nav-bar').classList.toggle('items-center')"
+        onclick="document.getElementById('nav-menu').classList.toggle('hidden'); document.getElementById('nav-title').classList.toggle('hidden'); document.getElementById('nav-bar').classList.toggle('items-center'); this.classList.toggle('text-gray-400');"
     >
         <Icon name="fa6-solid:bars" class="w-8 h-8" />
     </button>
