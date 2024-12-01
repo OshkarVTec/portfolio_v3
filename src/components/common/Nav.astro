@@ -16,7 +16,7 @@ import { Icon } from 'astro-icon/components';
     </button>
     <ul
         id="nav-menu"
-        class="hidden md:flex gap-4 list-none text-xl font-bold h-auto animate-slideInRight"
+        class="hidden md:flex gap-4 list-none text-xl font-bold h-auto"
     >
         <li class="my-6">
             <a
@@ -28,8 +28,8 @@ import { Icon } from 'astro-icon/components';
         </li>
         <li class="my-6">
             <a
-                href="/projects"
-                class={`p-2 hover:text-gray-400 ${pathname === '/projects' ? 'text-gray-400' : 'text-gray-100'}`}
+                href="/projects/1"
+                class={`p-2 hover:text-gray-400 ${pathname.startsWith('/projects') ? 'text-gray-400' : 'text-gray-100'}`}
             >
                 Projects
             </a>
