@@ -15,7 +15,10 @@ import { Icon } from 'astro-icon/components';
                         href={social.link}
                         class="flex flex-col items-center justify-center text-gray-100 font-extrabold"
                     >
-                        <Icon name={social.icon} class="w-16 h-16" />
+                        <Icon
+                            name={social.icon}
+                            class="w-10 h-10 md:w-16 md:h-16"
+                        />
                         <h3>{social.platform}</h3>
                     </a>
                 </li>
