@@ -1,0 +1,27 @@
+---
+import type { Page } from 'astro';
+import type { CollectionEntry } from 'astro:content';
+import Subtitle from './common/Subtitle.astro';
+import ProjectCard from './ProjectCard.astro';
+
+export interface Props {
+    page: Page<CollectionEntry<'projects'>>;
+}
+
+const { page } = Astro.props;
+---
+
+<section id="experience" class="flex flex-col items-center lg:block p-10 pb-0">
+    <Subtitle>Projects</Subtitle>
+    <div class="flex flex-wrap justify-around py-10">
+        {
+            page.data.map(({ data, slug }) => (
+                <ProjectCard href={`/posts/${slug}/`} frontmatter={data} />
+            ))
+        }
+        {page.url.first ? <a href={page.url.first}>First</a> : null}
+        {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
+        {page.url.next ? <a href={page.url.next}>Next</a> : null}
+        {page.url.last ? <a href={page.url.last}>Last</a> : null}
+    </div>
+</section>
