@@ -16,12 +16,38 @@ const { page } = Astro.props;
     <div class="flex flex-wrap justify-around py-10">
         {
             page.data.map(({ data, slug }) => (
-                <ProjectCard href={`/posts/${slug}/`} frontmatter={data} />
+                <ProjectCard href={`/project/${slug}/`} frontmatter={data} />
             ))
         }
-        {page.url.first ? <a href={page.url.first}>First</a> : null}
-        {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
-        {page.url.next ? <a href={page.url.next}>Next</a> : null}
-        {page.url.last ? <a href={page.url.last}>Last</a> : null}
+    </div>
+    <div class="flex gap-4">
+        {
+            page.url.first ? (
+                <a class="underline" href={page.url.first}>
+                    First
+                </a>
+            ) : null
+        }
+        {
+            page.url.prev ? (
+                <a class="underline" href={page.url.prev}>
+                    Previous
+                </a>
+            ) : null
+        }
+        {
+            page.url.next ? (
+                <a class="underline" href={page.url.next}>
+                    Next
+                </a>
+            ) : null
+        }
+        {
+            page.url.last ? (
+                <a class="underline" href={page.url.last}>
+                    Last
+                </a>
+            ) : null
+        }
     </div>
 </section>
