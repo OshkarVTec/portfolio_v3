@@ -17,7 +17,7 @@ export default {
                 slideInLeft: 'slideInLeft .5s ease-in-out forwards',
                 slideInRight: 'slideInRight .5s ease-in-out forwards'
             }
-        },
-        plugins: []
-    }
+        }
+    },
+    plugins: [require('@tailwindcss/typography')]
 };

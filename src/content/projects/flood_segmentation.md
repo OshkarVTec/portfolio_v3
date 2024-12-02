@@ -2,7 +2,7 @@
 id: 2
 title: 'Flood detection using AI'
 cover: './flood_cover.png'
-coverAlt: 'A photo of the model's result'
+coverAlt: "A photo of the model's result"
 tags: ['AI', 'Neural networks']
 github: 'https://github.com/OshkarVTec/deep-learning-flood-segmentation'
 ---
