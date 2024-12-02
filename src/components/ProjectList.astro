@@ -13,7 +13,7 @@ const { page } = Astro.props;
 
 <section id="experience" class="flex flex-col items-center lg:block p-10 pb-0">
     <Subtitle>Projects</Subtitle>
-    <div class="flex flex-wrap justify-around py-10">
+    <div class="flex flex-wrap justify-around py-10 gap-4">
         {
             page.data.map(({ data, slug }) => (
                 <ProjectCard href={`/project/${slug}/`} frontmatter={data} />
