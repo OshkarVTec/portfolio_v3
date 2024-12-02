@@ -10,7 +10,7 @@ export async function getStaticPaths({
 }) {
     const projects = await getCollection('projects');
     return paginate(projects, {
-        pageSize: 1
+        pageSize: 6
     });
 }
 const { page } = Astro.props;
