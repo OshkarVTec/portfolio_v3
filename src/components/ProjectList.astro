@@ -22,32 +22,32 @@ const { page } = Astro.props;
     </div>
     <div class="flex gap-4 justify-center text-xl p-4">
         {
-            page.url.first ? (
-                <a class="underline" href={page.url.first}>
-                    First
-                </a>
-            ) : null
-        }
-        {
-            page.url.prev ? (
-                <a class="underline" href={page.url.prev}>
+            (
+                <a
+                    class={
+                        page.url.prev
+                            ? 'underline text-gray-700'
+                            : 'disabled text-gray-400'
+                    }
+                    href={page.url.prev}
+                >
                     Previous
                 </a>
-            ) : null
+            )
         }
         {
-            page.url.next ? (
-                <a class="underline" href={page.url.next}>
+            (
+                <a
+                    class={
+                        page.url.next
+                            ? 'underline text-gray-700'
+                            : 'disabled text-gray-400'
+                    }
+                    href={page.url.next}
+                >
                     Next
                 </a>
-            ) : null
-        }
-        {
-            page.url.last ? (
-                <a class="underline" href={page.url.last}>
-                    Last
-                </a>
-            ) : null
+            )
         }
     </div>
 </section>
