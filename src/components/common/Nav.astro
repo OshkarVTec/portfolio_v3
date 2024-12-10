@@ -20,7 +20,7 @@ import { Icon } from 'astro-icon/components';
     >
         <li class="my-6">
             <a
-                href="/"
+                href={`${import.meta.env.BASE_URL}`}
                 class={`p-2 hover:text-gray-400 ${pathname === '/' ? 'text-gray-400' : 'text-gray-100'}`}
             >
                 Home
@@ -28,7 +28,7 @@ import { Icon } from 'astro-icon/components';
         </li>
         <li class="my-6">
             <a
-                href="/projects/1"
+                href={`${import.meta.env.BASE_URL}projects/1`}
                 class={`p-2 hover:text-gray-400 ${pathname.startsWith('/projects') ? 'text-gray-400' : 'text-gray-100'}`}
             >
                 Projects
@@ -36,7 +36,7 @@ import { Icon } from 'astro-icon/components';
         </li>
         <li class="my-6">
             <a
-                href="/about-me"
+                href={`${import.meta.env.BASE_URL}about-me`}
                 class={`p-2 hover:text-gray-400 ${pathname === '/about-me' ? 'text-gray-400' : 'text-gray-100'}`}
             >
                 About me
@@ -44,7 +44,7 @@ import { Icon } from 'astro-icon/components';
         </li>
         <li class="my-6">
             <a
-                href="/contact"
+                href={`${import.meta.env.BASE_URL}contact`}
                 class={`p-2 hover:text-gray-400 ${pathname === '/contact' ? 'text-gray-400' : 'text-gray-100'}`}
             >
                 Contact
