@@ -9,5 +9,5 @@ import icon from 'astro-icon';
 export default defineConfig({
     integrations: [tailwind(), icon()],
     site: 'https://oshkarvtec.github.io/portfolio_v3/',
-    base: '/portfolio_v3/'
+    base: '/portfolio_v3'
 });
