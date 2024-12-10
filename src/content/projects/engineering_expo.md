@@ -6,6 +6,8 @@ coverAlt: 'Screenshot of the Engineering Expo Website interface'
 tags: ['Web Development', 'JavaScript', 'CSS', 'Data Base', 'PHP']
 ---
 
+# Engineering Expo Website
+
 I worked on a project to develop a website for the administration of the
 Engineering Expo at Tec de Monterrey in Puebla. As a part of the project, I was
 responsible for developing the database, as well as working on the backend and

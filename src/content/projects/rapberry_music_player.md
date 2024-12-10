@@ -7,6 +7,8 @@ tags: ['Embedded Systems', 'Python', 'UI']
 github: 'https://github.com/OshkarVTec/Raspberry-Pi-4-music-player'
 ---
 
+# Raspberry Pi Music Player
+
 I worked on a project to develop an MP3 music player with a graphical interface
 using Python. The goal was to simulate the entertainment interface of a car with
 a display screen. The project was implemented on a Raspberry Pi4 and included a

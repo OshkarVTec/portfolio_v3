@@ -7,6 +7,8 @@ tags: ['ReactJS', 'Web Development']
 github: 'https://github.com/OshkarVTec/webBecas'
 ---
 
+# Data Search Web Page
+
 A web app where you can search for scholarships, applying filters and using a
 text search. Built on React using Vite. Deployed on GitHub Pages.
 

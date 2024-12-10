@@ -7,6 +7,8 @@ tags: ['Elixir', 'Erlang', 'CSS']
 github: 'https://github.com/OshkarVTec/python-syntax-highlighter'
 ---
 
+# Syntax Highlighter
+
 I developed a syntax highlighter that takes a Python script and generates an
 output HTML file. The HTML file, paired with a CSS stylesheet, displays the code
 with correct syntax highlighting. The code is written in Elixir, and contains
