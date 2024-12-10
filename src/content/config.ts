@@ -1,5 +1,4 @@
 import { defineCollection, z } from 'astro:content';
-import { idText } from 'typescript';
 
 const projectsCollection = defineCollection({
     schema: ({ image }) =>
