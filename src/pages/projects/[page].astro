@@ -9,7 +9,10 @@ export async function getStaticPaths({
     paginate: (items: any[], options: { pageSize: number }) => any;
 }) {
     const projects = await getCollection('projects');
-    return paginate(projects, {
+    const sortedProjects = projects.sort((a, b) => {
+        return a.data.id > b.data.id ? 1 : -1;
+    });
+    return paginate(sortedProjects, {
         pageSize: 6
     });
 }
