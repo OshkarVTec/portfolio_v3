@@ -13,7 +13,7 @@ export const experienceData = [
     {
         name: 'T-Systems',
         position: 'Digital Solutions Developer',
-        description: 'As an intern at T-Systems, my responsibilities are:',
+        description: 'As an intern at T-Systems, my responsibilities were:',
         date: 'Summer 2024 - Winter 2024',
         bullets: [
             'Participate in the development of a web application for internal use, focusing on user experience and performance.',
