@@ -1,9 +1,20 @@
 export const experienceData = [
     {
+        name: 'Ellucian',
+        position: 'Technical Intern',
+        description:
+            'As a technical intern at Ellucian, my responsibilities are:',
+        date: 'Spring 2025 - Present',
+        bullets: [
+            'Conduct interviews to evaluate the documentation for the Customer Success team, identifying areas for improvement.',
+            "Perform data analysis using Python, leveraging machine learning and pandas to uncover the documentation's usage patterns and areas of opportunity."
+        ]
+    },
+    {
         name: 'T-Systems',
         position: 'Digital Solutions Developer',
-        description: 'As an intern in T-Systems, my responsibilities are:',
-        date: 'Summer 2024 - Present',
+        description: 'As an intern at T-Systems, my responsibilities are:',
+        date: 'Summer 2024 - Winter 2024',
         bullets: [
             'Participate in the development of a web application for internal use, focusing on user experience and performance.',
             'Collaborate with a team of developers to implement new features and improve existing functionality.'
