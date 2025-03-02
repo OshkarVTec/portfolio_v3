@@ -16,8 +16,8 @@ export const experienceData = [
         description: 'As an intern at T-Systems, my responsibilities were:',
         date: 'Summer 2024 - Winter 2024',
         bullets: [
-            'Participate in the development of a web application for internal use, focusing on user experience and performance.',
-            'Collaborate with a team of developers to implement new features and improve existing functionality.'
+            'Participate in the development of an internal documentation tool for the entire organization.',
+            'Collaborate with a team of developers from different areas to merge the documentation from different departments into a single platform.'
         ]
     },
     {
