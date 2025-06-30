@@ -4,7 +4,7 @@ export const experienceData = [
         position: 'Technical Intern',
         description:
             'As a technical intern at Ellucian, my responsibilities are:',
-        date: 'Spring 2025 - Present',
+        date: 'Spring 2025 - Summer 2025',
         bullets: [
             'Conduct interviews to evaluate the documentation for the Customer Success team, identifying areas for improvement.',
             "Perform data analysis using Python, leveraging machine learning and pandas to uncover the documentation's usage patterns and areas of opportunity."
