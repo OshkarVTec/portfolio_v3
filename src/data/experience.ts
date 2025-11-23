@@ -1,9 +1,31 @@
 export const experienceData = [
+        {
+        name: 'Embeddables',
+        position: 'Creative Engineer (Front-end)',
+        description:
+            'My role at Embeddables involves the following responsibilities:',
+        date: 'August 2025 - Present',
+        bullets: [
+            'Develop checkout funnels and medical questionnaires using HTML and CSS, ensuring pixel-perfect implementations of the designs.',
+            'Develop JavaScript functions to connect to external APIs and libraries.'
+        ]
+    },
+      {
+        name: 'Villa Blanca - (Freelance)',
+        position: 'Odoo developer)',
+        description:
+            'I worked as a freelance Odoo developer for Villa Blanca, a dairy products manufacturer. My responsibilities included:',
+        date: 'May 2025 - August 2025',
+        bullets: [
+            'Develop custom modules and features in Odoo (Python and JavaScript) to meet the specific needs of the client.',
+            'Deploy and maintain an Odoo instance in a VPS.'
+        ]
+    },
     {
         name: 'Ellucian',
         position: 'Technical Intern',
         description:
-            'As a technical intern at Ellucian, my responsibilities are:',
+            'As a technical intern at Ellucian, my responsibilities were:',
         date: 'Spring 2025 - Summer 2025',
         bullets: [
             'Conduct interviews to evaluate the documentation for the Customer Success team, identifying areas for improvement.',
