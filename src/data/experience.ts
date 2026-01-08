@@ -10,17 +10,6 @@ export const experienceData = [
             'Develop JavaScript functions to connect to external APIs and libraries.'
         ]
     },
-      {
-        name: 'Villa Blanca - (Freelance)',
-        position: 'Odoo developer)',
-        description:
-            'I worked as a freelance Odoo developer for Villa Blanca, a dairy products manufacturer. My responsibilities included:',
-        date: 'May 2025 - August 2025',
-        bullets: [
-            'Develop custom modules and features in Odoo (Python and JavaScript) to meet the specific needs of the client.',
-            'Deploy and maintain an Odoo instance in a VPS.'
-        ]
-    },
     {
         name: 'Ellucian',
         position: 'Technical Intern',

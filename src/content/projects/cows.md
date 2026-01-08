@@ -1,5 +1,5 @@
 ---
-id: 1
+id: 2
 title: 'AI for Analyzing Cow Rest Patterns'
 cover: './cows_demo.png'
 coverAlt: 'A photo of the UI for bed selection'
