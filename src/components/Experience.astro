@@ -1,32 +1,55 @@
 ---
-import Subtitle from './common/Subtitle.astro';
 import { experienceData } from '../data/experience.ts';
 ---
 
-<section id="experience" class="flex flex-col items-center lg:block p-10 pb-0">
-    <Subtitle>Experience</Subtitle>
-    <div class="flex flex-wrap justify-around py-10">
-        {
-            experienceData.map((experienceItem) => (
-                <div class="border-2 border-gray-700 w-[80%] lg:w-[45%] m-4 p-4">
-                    <div class="my-4">
-                        <div class="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center">
-                            <h3 class="text-lg font-bold">
-                                {experienceItem.name}
-                            </h3>
-                            <p class="text-sm">{experienceItem.date}</p>
-                        </div>
-                        <h4 class="text-md">{experienceItem.position}</h4>
-                    </div>
-                    <p class="text-sm">{experienceItem.description}</p>
+<section id="experience" class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-6 md:px-8">
+        <div class="space-y-12">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Experience
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl">
+                    Professional experience across healthcare systems,
+                    operational software, and full-stack development.
+                </p>
+            </div>
 
-                    <ul class="list-disc py-4 px-8">
-                        {experienceItem.bullets.map((bullet) => (
-                            <li class="text-sm">{bullet}</li>
-                        ))}
-                    </ul>
-                </div>
-            ))
-        }
+            <div class="space-y-8">
+                {
+                    experienceData.map((experienceItem) => (
+                        <article class="border-l-2 border-primary-600 pl-6 py-2">
+                            <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">
+                                        {experienceItem.name}
+                                    </h3>
+                                    <p class="text-base text-primary-600 font-medium">
+                                        {experienceItem.position}
+                                    </p>
+                                    <p class="text-sm text-gray-600 italic mt-1">
+                                        {experienceItem.description}
+                                    </p>
+                                </div>
+                                <p class="text-sm text-gray-500 whitespace-nowrap mt-2 md:mt-0 md:ml-4">
+                                    {experienceItem.date}
+                                </p>
+                            </div>
+
+                            <ul class="space-y-2 mt-4">
+                                {experienceItem.bullets.map((bullet) => (
+                                    <li class="text-gray-700 flex items-start">
+                                        <span class="text-primary-600 mr-2 mt-1.5">
+                                            •
+                                        </span>
+                                        <span>{bullet}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </article>
+                    ))
+                }
+            </div>
+        </div>
     </div>
 </section>

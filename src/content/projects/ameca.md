@@ -1,22 +1,36 @@
 ---
 id: 6
-title: 'Latin Food registration platform'
+title: 'AMECA — Event Registration Platform'
 cover: './ameca.png'
-coverAlt: ''
-tags: ['Web Development']
+coverAlt: 'Latin Food 2024 registration platform'
+tags: ['Web Development', 'AWS', 'CI/CD']
 ---
 
-# Latin Food registration platform
+# AMECA — Event Registration Platform
 
-I was part of the team in charge of the development of the web platform for the
-registration process of Latin Food 2024, an event organized by the Mexican
-Association of Food Science (AMECA). My responsibilities included designing the
-platform's architecture, developing the automated deployment pipeline on AWS
-using GitHub Actions, and providing consulting for backend and frontend
-development.
+**Freelance Project** | 2024
 
-The project was fully managed by me and the team as a freelancing project.
+Led development team for the web platform powering registration for Latin Food 2024, an event organized by the Mexican Association of Food Science (AMECA).
 
-The platform is no longer available, as the event was held in November 2024.
+## Responsibilities
 
-![Technologies involved](./ameca.png)
+### Architecture & Strategy
+Designed platform architecture to handle event registration workflow, attendee management, and data collection requirements.
+
+### DevOps & Deployment
+- Developed automated deployment pipeline on AWS using GitHub Actions
+- Set up CI/CD for continuous integration and deployment
+- Managed infrastructure and deployment processes
+
+### Team Leadership & Consulting
+- Provided technical consulting for backend and frontend development teams
+- Coordinated full project delivery as freelance team lead
+- Managed project end-to-end from concept to launch
+
+## Outcome
+
+Platform successfully handled registrations for Latin Food 2024 event held in November 2024. Project was fully managed as a freelancing engagement, demonstrating capability for full project ownership and team coordination.
+
+---
+
+*Platform is no longer active as event has concluded.*

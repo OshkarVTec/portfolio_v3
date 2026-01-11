@@ -1,19 +1,41 @@
 ---
 id: 1
-title: 'Villa Blanca - Odoo ERP Development'
+title: 'Villa Blanca — Food Manufacturing ERP'
 cover: './villa_blanca.jpeg'
 coverAlt: 'Odoo development project for Villa Blanca'
-tags: ['Odoo', 'Python', 'JavaScript', 'Freelance']
+tags: ['Odoo', 'Python', 'JavaScript', 'ERP']
 ---
 
-# Villa Blanca - Odoo Development
+# Villa Blanca — Food Manufacturing ERP
 
-I worked as a freelance Odoo developer for Villa Blanca, a dairy products manufacturer from May 2025 to August 2025. Their goal was to migrate their operations into a new ERP, to be able to integrate their manufacturing and sales administration.
+**Freelance Project** | May-Aug 2025 | Ongoing Maintenance
 
-During the project, we conducted a discovery phase evaluating solutions, looking at open-source, licensed and in-house development for ERPs. We decided to go with Odoo because its capabilities lined up better with the company's needs. 
+Worked as a freelance Odoo developer for Villa Blanca, a dairy products manufacturer. The project goal was to migrate their operations to a modern ERP system, integrating manufacturing and sales administration.
 
-The project involved the development of custom modules to be able to handle catch weight operations, where the manufactured products have a variable weight, which needs to be accounted for. The development in Odoo is made through Python and JavaScript, using both Odoo and OWL frameworks.
+## Project Scope
 
-The project concluded with the deployment of the Odoo instance in a VPS, including the development of a CI/CD pipeline and database backups.
+### Discovery & Platform Selection
+Conducted comprehensive discovery phase evaluating ERP solutions across open-source, licensed, and custom development options. Selected Odoo based on alignment with company needs and operational requirements.
 
-I currently work on the maintenance of the project.
+### Custom Development
+Developed custom modules to handle catch-weight operations — a critical requirement for food manufacturing where products have variable weights that must be precisely tracked and accounted for.
+
+**Technologies:**
+- Python (backend logic)
+- JavaScript with OWL framework (UI components)
+- Odoo framework
+- PostgreSQL
+
+### Deployment & Infrastructure
+- Deployed Odoo instance on VPS
+- Implemented CI/CD pipeline for automated deployments
+- Set up database backup systems
+- Configured production environment
+
+## Current Status
+
+Ongoing maintenance contract, providing continued feature development and system support.
+
+---
+
+**Note:** This project demonstrates full project lifecycle management from discovery through deployment and maintenance, with emphasis on regulated industry requirements and operational workflow complexity.

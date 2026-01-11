@@ -7,20 +7,40 @@ import Layout from '../../layouts/Layout.astro';
 export async function getStaticPaths() {
     const projects = await getCollection('projects');
     return projects.map((project) => ({
-        params: { project: project.slug }, // Ensure the parameter name matches the dynamic route
+        params: { project: project.slug },
         props: project
     }));
 }
 
 type Props = CollectionEntry<'projects'>;
 
-const { project } = Astro.params; // Destructure the project parameter from Astro.params
-const projectData = await getEntry('projects', project); // Fetch the project data using the slug
+const { project } = Astro.params;
+const projectData = await getEntry('projects', project);
 const { Content } = await projectData.render();
 ---
 
 <Layout title={projectData.data.title}>
     <PageLayout>
+        <div class="max-w-4xl mx-auto px-6 md:px-8 pt-8">
+            <a
+                href={`${import.meta.env.BASE_URL}#projects`}
+                class="inline-flex items-center text-gray-600 hover:text-primary-600 font-medium group mb-8"
+            >
+                <svg
+                    class="w-4 h-4 mr-1 group-hover:-translate-x-1 transition-transform"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Back to projects
+            </a>
+        </div>
         <Prose>
             <Content />
         </Prose>
