@@ -2,7 +2,10 @@
 const pathname = Astro.url.pathname;
 ---
 
-<nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+<nav
+    class="bg-primary-100 border-b sticky top-0 z-50 transition-colors duration-300"
+    id="navbar"
+>
     <div class="max-w-6xl mx-auto px-6 md:px-8">
         <div class="flex items-center justify-between h-16">
             <a
@@ -84,6 +87,7 @@ const pathname = Astro.url.pathname;
 <script>
     const button = document.getElementById('mobile-menu-button');
     const menu = document.getElementById('mobile-menu');
+    const navbar = document.getElementById('navbar');
 
     button?.addEventListener('click', () => {
         menu?.classList.toggle('hidden');
@@ -94,5 +98,39 @@ const pathname = Astro.url.pathname;
         link.addEventListener('click', () => {
             menu?.classList.add('hidden');
         });
+    });
+
+    // Change navbar color on scroll - smooth gradient transition
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const heroHeight = 500; // Adjust this to match your hero section height
+
+        if (scrollPosition > heroHeight) {
+            navbar?.classList.remove(
+                'bg-primary-100',
+                'border-primary-200',
+                'border-transparent'
+            );
+            navbar?.classList.add('bg-white', 'border-gray-200');
+            if (navbar) {
+                navbar.style.backgroundColor = '';
+                navbar.style.borderColor = '';
+            }
+        } else {
+            navbar?.classList.remove('bg-white', 'border-gray-200');
+            navbar?.classList.add('border-transparent');
+
+            // Calculate gradient position (0 to 1)
+            const gradientPosition = scrollPosition / heroHeight;
+
+            // Interpolate between primary-100 (rgb(224, 242, 254)) and white (rgb(255, 255, 255))
+            const r = Math.round(224 + (255 - 224) * gradientPosition);
+            const g = Math.round(242 + (255 - 242) * gradientPosition);
+            const b = Math.round(254 + (255 - 254) * gradientPosition);
+
+            if (navbar) {
+                navbar.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+            }
+        }
     });
 </script>
