@@ -5,7 +5,7 @@ export const experienceData = [
         description: 'Healthcare SaaS / Medical Intake Systems',
         date: 'August 2025 - Present',
         bullets: [
-            'Developed configurable intake workflows for telehealth providers',
+            'Developed intake workflows for telehealth providers in the US',
             'Built HIPAA-compliant patient questionnaires and marketing funnels',
             'Integrated with external healthcare APIs and data systems',
         ]
