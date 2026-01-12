@@ -10,7 +10,7 @@ tags: ['Web Development', 'AWS', 'CI/CD']
 
 **Freelance Project** | 2024
 
-Led development team for the web platform powering registration for Latin Food 2024, an event organized by the Mexican Association of Food Science (AMECA).
+Worked in the development team for the web platform powering registration for Latin Food 2024, an event organized by the Mexican Association of Food Science (AMECA).
 
 ## Responsibilities
 
@@ -22,14 +22,12 @@ Designed platform architecture to handle event registration workflow, attendee m
 - Set up CI/CD for continuous integration and deployment
 - Managed infrastructure and deployment processes
 
-### Team Leadership & Consulting
-- Provided technical consulting for backend and frontend development teams
-- Coordinated full project delivery as freelance team lead
-- Managed project end-to-end from concept to launch
+### Team collaboration & consulting
+- Provided technical consulting for backend and frontend development
 
 ## Outcome
 
-Platform successfully handled registrations for Latin Food 2024 event held in November 2024. Project was fully managed as a freelancing engagement, demonstrating capability for full project ownership and team coordination.
+Platform successfully handled registrations for Latin Food 2024 event held in November 2024. Project was fully managed as a freelancing engagement.
 
 ---
 

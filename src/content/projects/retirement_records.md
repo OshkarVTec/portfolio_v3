@@ -25,8 +25,8 @@ Active development, exploring product-market fit with initial client feedback.
 
 ## Technologies
 
-Python, React, PostgreSQL
+React, Supabase
 
 ---
 
-*This project represents my exploration into healthcare software beyond employment work, applying lessons learned from building medical intake systems to a different segment of the healthcare industry.*
+*This project represents my exploration into healthcare's Software as a Service, sparked from a request from a client. The project is in early stage development*
