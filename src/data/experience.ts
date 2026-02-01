@@ -1,9 +1,18 @@
 export const experienceData = [
     {
         name: 'Embeddables',
+        position: 'Full Stack Developer',
+        description: 'Healthcare SaaS / Medical Intake Systems',
+        date: 'February 2026 - Present',
+        bullets: [
+            'Participate in full software development lifecycle for healthcare SaaS platform, building and maintining a web app builder for aquisition funnels and patient intake forms',
+        ]
+    },
+    {
+        name: 'Embeddables',
         position: 'Creative Engineer',
         description: 'Healthcare SaaS / Medical Intake Systems',
-        date: 'August 2025 - Present',
+        date: 'August 2025 - February 2026',
         bullets: [
             'Developed intake workflows for telehealth providers in the US',
             'Built HIPAA-compliant patient questionnaires and marketing funnels',
