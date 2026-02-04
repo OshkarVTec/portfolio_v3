@@ -37,5 +37,3 @@ Developed custom modules to handle catch-weight operations — a critical requir
 Ongoing maintenance contract, providing continued feature development and system support.
 
 ---
-
-**Note:** This project demonstrates full project lifecycle management from discovery through deployment and maintenance, with emphasis on regulated industry requirements and operational workflow complexity.
